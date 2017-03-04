@@ -1,0 +1,2 @@
+%_topdir /rpmbuild
+%_build_name_fmt %%{ARCH}/%%{NAME}%{getenv:NAME_POSTFIX}-%%{VERSION}-%%{RELEASE}.%%{ARCH}.rpm
