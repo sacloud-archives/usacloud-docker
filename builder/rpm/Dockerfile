@@ -5,6 +5,8 @@ RUN yum install -y \
   git \
   make \
   rpm-build \
+  createrepo \
+  rpm-build \
   && yum clean all
 
 ADD rpmmacros /root/.rpmmacros
