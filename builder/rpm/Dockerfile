@@ -5,6 +5,7 @@ RUN yum install -y \
   git \
   make \
   rpm-build \
+  rpm-sign \
   createrepo \
   rpm-build \
   && yum clean all
