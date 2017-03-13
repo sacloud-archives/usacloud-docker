@@ -1,6 +1,5 @@
 %_topdir /rpmbuild
 %_build_name_fmt %%{ARCH}/%%{NAME}%{getenv:NAME_POSTFIX}-%%{VERSION}-%%{RELEASE}.%%{ARCH}.rpm
 %_signature gpg
-%_gpg_path /root/.gnugp
-%_gpg_name Usacloud <yamamoto.febc@gmail.com>
-%_gpgbin /usr/bin/gpg2
+%__gpg_check_password_cmd /bin/true
+%__gpg_sign_cmd %{__gpg} gpg --batch --no-verbose --no-armor --use-agent --no-secmem-warning -u "%{_gpg_name}" -sbo %{__signature_filename} %{__plaintext_filename}
