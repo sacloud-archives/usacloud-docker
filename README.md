@@ -6,7 +6,7 @@
 
 ## `Dockerfile` links
 
-- [`0.0.7`,`latest`(Dockerfile)](https://github.com/sacloud/usacloud-docker/tree/master/)
+- [`0.0.8`,`latest`(Dockerfile)](https://github.com/sacloud/usacloud-docker/tree/master/)
 
 ## 使い方(dockerコマンドを直接使う場合)
 
