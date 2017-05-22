@@ -2,7 +2,7 @@ FROM alpine:3.5
 MAINTAINER Kazumichi Yamamoto <yamamoto.febc@gmail.com>
 LABEL MAINTAINER 'Kazumichi Yamamoto <yamamoto.febc@gmail.com>'
 
-ENV USACLOUD_VERSION=0.0.8
+ENV USACLOUD_VERSION=0.0.9
 LABEL io.whalebrew.config.environment '["SAKURACLOUD_ACCESS_TOKEN", "SAKURACLOUD_ACCESS_TOKEN_SECRET" , "SAKURACLOUD_ZONE" , "SAKURACLOUD_TIMEOUT" , "SAKURACLOUD_TRACE_MODE","SACLOUD_OJS_ACCESS_KEY_ID","SACLOUD_OJS_SECRET_ACCESS_KEY" ]'
 
 RUN set -x && apk add --no-cache --update zip ca-certificates

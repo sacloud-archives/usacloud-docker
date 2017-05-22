@@ -6,7 +6,7 @@
 
 ## `Dockerfile` links
 
-- [`0.0.8`,`latest`(Dockerfile)](https://github.com/sacloud/usacloud-docker/tree/master/)
+- [`0.0.9`,`latest`(Dockerfile)](https://github.com/sacloud/usacloud-docker/tree/master/)
 
 ## 使い方(dockerコマンドを直接使う場合)
 
@@ -15,6 +15,8 @@
 ```bash
 docker run -d sacloud/usacloud [操作対象リソース] [コマンド] [オプション]
 ```
+
+`usacloud`コマンドの基本的な使い方は[Usacloudドキュメント](https://sacloud.github.io/usacloud/)を参照してください。
 
 ### 実行例
 
