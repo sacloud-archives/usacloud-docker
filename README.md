@@ -6,14 +6,14 @@
 
 ## `Dockerfile` links
 
-- [`0.0.9`,`latest`(Dockerfile)](https://github.com/sacloud/usacloud-docker/tree/master/)
+- [`0.0.10`,`latest`(Dockerfile)](https://github.com/sacloud/usacloud-docker/tree/master/)
 
 ## 使い方(dockerコマンドを直接使う場合)
 
 ### 起動コマンド書式
 
 ```bash
-docker run -d sacloud/usacloud [操作対象リソース] [コマンド] [オプション]
+docker run -it --rm sacloud/usacloud [操作対象リソース] [コマンド] [オプション]
 ```
 
 `usacloud`コマンドの基本的な使い方は[Usacloudドキュメント](https://sacloud.github.io/usacloud/)を参照してください。
@@ -23,13 +23,13 @@ docker run -d sacloud/usacloud [操作対象リソース] [コマンド] [オプ
 必須パラメータ(さくらのクラウド[トークン、シークレット])をオプション指定しています。
 
 ```bash
-docker run -d sacloud/usacloud --token "Your Token" --secret "Your Secret"
+docker run -it --rm sacloud/usacloud --token "Your Token" --secret "Your Secret" 
 ```
 
 パラメータは環境変数で渡すことも可能です。
 
 ```bash
-docker run -d sacloud/usacloud -e SAKURACLOUD_ACCESS_TOKEN -e SAKURACLOUD_ACCESS_TOKEN_SECRET
+docker run -it --rm -e SAKURACLOUD_ACCESS_TOKEN -e SAKURACLOUD_ACCESS_TOKEN_SECRET sacloud/usacloud 
 ```
 
 ## 使い方(whalebrewを使う場合)
