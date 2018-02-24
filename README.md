@@ -1,6 +1,6 @@
 # usacloud
 
-## > "Unofficial" CLI client for the Sakura Cloud
+## > CLI client for the Sakura Cloud
 
 [usacloud](https://github.com/sacloud/usacloud)用Dockerイメージ
 
