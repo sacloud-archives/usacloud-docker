@@ -6,7 +6,7 @@ LABEL io.whalebrew.config.environment '["SAKURACLOUD_ACCESS_TOKEN", "SAKURACLOUD
 
 RUN set -x && apk add --no-cache --update zip ca-certificates
 
-ADD https://github.com/sacloud/usacloud/releases/download/v0.18.0/usacloud_linux-amd64.zip ./
+ADD https://github.com/sacloud/usacloud/releases/download/v0.19.0/usacloud_linux-amd64.zip ./
 RUN unzip usacloud_linux-amd64.zip -d /bin; rm -f usacloud_linux-amd64.zip
 
 VOLUME ["/workdir"]
