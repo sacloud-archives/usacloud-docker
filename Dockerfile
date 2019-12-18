@@ -4,7 +4,7 @@ LABEL MAINTAINER 'Kazumichi Yamamoto <yamamoto.febc@gmail.com>'
 
 RUN set -x && apk add --no-cache --update zip ca-certificates
 
-ADD https://github.com/sacloud/usacloud/releases/download/v0.31.0/usacloud_linux-amd64.zip ./
+ADD https://github.com/sacloud/usacloud/releases/download/v0.31.1/usacloud_linux-amd64.zip ./
 RUN unzip usacloud_linux-amd64.zip -d /bin; rm -f usacloud_linux-amd64.zip
 
 VOLUME ["/workdir"]
