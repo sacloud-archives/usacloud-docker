@@ -1,3 +1,5 @@
+**:warning: [sacloud/usacloud](https://github.com/sacloud/usacloud)へ移行されました**
+
 # usacloud
 
 ## > CLI client for the Sakura Cloud
